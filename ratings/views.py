@@ -7,4 +7,4 @@ from . import serializers
 # Create your views here.
 class UserListView(viewsets.ModelViewSet):
     queryset = ratings.objects.all()
-    serializer_class = serializers.UserlistSerializer
+    serializer_class = serializers.ratings
